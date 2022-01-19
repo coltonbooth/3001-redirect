@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 try {
-  xml_http_request = new xml_http_requestRequest();
+  xml_http_request = new XMLHttpRequest();
 } catch (e) {
   xml_http_request = false;
   console.log(e);
